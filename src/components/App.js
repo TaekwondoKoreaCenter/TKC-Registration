@@ -202,14 +202,14 @@ export default class App extends React.Component {
         <div className = "textGen">
           <p className="textBlurb">
             Select your desired classes below, and click "Review and Register" at the right top corner to complete registration.<br></br>
-            Note: 2 max classes per week for Basic Course and monthly members. 3 max classes per week for Black Belt Team and Instructor Course members.          
+            Note: 2 max classes per week for Basic Course and monthly members.           
           </p>
         </div>} */}
 
         <Snackbar open={this.state.errorCaught} autoHideDuration={6000} onClose={this.handleErrorClose} >
           <MuiAlert variant='filled' onClose={this.handleErrorClose} severity="error">
             {/* Too many classes added! You can add up to {this.state.studentInfo['student_type'] === 'bbt'? 3 : 2} classes for each week. */}
-            Too many classes added! You can add up to 2 class per week.
+            Too many classes added! 
           </MuiAlert>
         </Snackbar>
 
