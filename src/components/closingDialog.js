@@ -232,7 +232,7 @@ export default class ClosingDialog extends React.Component {
                   </List>
                   <div className='bottomPadding'/>
                   <Typography variant='body1'>
-                    Check email for your confirmation. <b>COVID-19 Notice:</b> Every student and parent entering our dojang will be required to wear a mask over nose and mouth and be temperature checked for the safety of fellow students, parents, and staff.
+                    Check email for your confirmation. <b>COVID-19 Notice:</b> Every student and parent entering our dojang will be required to wear a mask over nose and mouth in accordance with State guidelines.
                   </Typography>
               </div>
             }
