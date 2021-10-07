@@ -63,7 +63,7 @@ export default class ClassCard extends React.Component {
                     {session['className']}
                   </Box>
                   <Box display='flex' flexGrow={2} className='capacityBox' alignItems='flex-end'>
-                    {session['status'] + "/15"}
+                    {session['status'] + "/20"}
                   </Box>
                 </Box>
               </Button> 

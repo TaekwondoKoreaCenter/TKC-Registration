@@ -46,8 +46,10 @@ export default class DaysInMonth extends React.Component{
   
     let currentWeekday = parseInt(firstDayOfMonth(), 10);
   
+    let lastDayOfMonth = moment().daysInMonth();
   
-    for (let d = 1; d <= 30; d++) {
+    for (let d = 1; d <= lastDayOfMonth; d++) {
+      console.log('days in month' + lastDayOfMonth);
       let result = this.isDayWithClass(classes, d.toString());
       if (result.length > 0){
         daysInMonth.push(
@@ -103,7 +105,7 @@ export default class DaysInMonth extends React.Component{
   
     if (classDates.includes(dateString)){
       classes[dateString].forEach((session) => {
-        if (session['status'] < 15){
+        if (session['status'] < 20){
           flag = true;
         }
       });

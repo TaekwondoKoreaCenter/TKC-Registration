@@ -45,7 +45,7 @@ export async function retrieveAllClasses(studentType){
   }).eachPage((records, fetchNextPage) => {
     records.forEach((record) => {
       // if (availableClasses.includes(record.get('Class Name')[0]) && record.get('Status') < 15){
-      if (record.get('Status') < 15){
+      if (record.get('Status') < 20){
 
         let parsedDate = record.get('Date').substring(5);
         allClasses["dates"].push(parsedDate);
