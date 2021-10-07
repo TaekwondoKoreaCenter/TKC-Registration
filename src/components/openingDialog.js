@@ -132,7 +132,7 @@ export default class OpeningDialog extends React.Component {
               onChange = {event => this.setEmail(event.target.value)}
             />
             <DialogContentText>
-              All students will be participating in two classes a week in order to ensure safe capacity limit.
+              
             </DialogContentText>
             {/* <div className = 'labelPadding'>
               <FormLabel>Course Type</FormLabel>
