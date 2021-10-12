@@ -1,6 +1,6 @@
 import React from 'react';
 import moment from 'moment';
-import './weekView.css';
+import '../../styles/weekView.css';
 import DateButton from './dateButton';
 
 export default class DaysInMonth extends React.Component{

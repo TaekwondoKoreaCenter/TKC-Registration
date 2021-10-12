@@ -1,6 +1,6 @@
 import React from 'react';
 import moment from 'moment';
-import './calendarView.css';
+import '../../styles/calendarView.css';
 import DaysInMonth from './weekView';
 
 let weekdayshortname = moment.weekdaysShort().map(day => {

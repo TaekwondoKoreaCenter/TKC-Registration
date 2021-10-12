@@ -9,7 +9,7 @@ import {
   // Checkbox,
   // Tooltip
 } from '@material-ui/core';
-import './classCard.css';
+import '../../styles/classCard.css';
 
 
 export default class ClassCard extends React.Component {

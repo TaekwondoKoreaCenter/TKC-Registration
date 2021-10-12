@@ -9,16 +9,30 @@
   position: absolute;
 }
 
-.MuiTypography-h2 {
-  font-family: BebasNeue !important;
-  font-size: 4rem;
-  margin: 10px;
-  text-align: center !important;
-  margin-top: 15px !important;
-  flex-grow: 1;
-  align-self: center !important;
-  margin-left:251.73px !important;
+@media screen and (max-height: 600px) and (max-width: 400px){
+  .MuiTypography-h2 {
+    font-family: BebasNeue !important;
+    font-size: 1.25rem !important;
+    margin: 10px;
+    text-align: left !important;
+    margin-top: 15px !important;
+    flex-grow: 1;
+    align-self: left !important;
+  }
 }
+
+/* @media screen and (min-height: 601px) and (min-width: 401px) {
+  .MuiTypography-h2 {
+    font-family: BebasNeue !important;
+    font-size: 4rem;
+    margin: 10px;
+    text-align: center !important;
+    margin-top: 15px !important;
+    flex-grow: 1;
+    align-self: center !important;
+    margin-left:251.73px !important;
+  } */
+/* } */
 
 .MuiButton-outlinedPrimary{
   border-color: white !important;
