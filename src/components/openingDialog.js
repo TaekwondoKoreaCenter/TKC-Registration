@@ -107,7 +107,7 @@ export default class OpeningDialog extends React.Component {
           <DialogContent>
             <DialogContentText>
              Welcome to TKC Class Registration! Please sign-in.<br></br>
-             Note: You must submit one registration for each student.
+             Note: You may submit one registration for your entire family. Add all names into the Name field
             </DialogContentText>
             <TextField
               // autoFocus="false"
